@@ -1,0 +1,66 @@
+[
+    {
+        "ID": 1,
+        "Name": "Otabek",
+        "Age": 19,
+        "Nationality": "Uzbek",
+        "WorkingExperience": "2 years",
+        "Description": "Some description of the employee"
+    },
+    {
+        "ID": 2,
+        "Name": "Guli",
+        "Age": 19,
+        "Nationality": "Uzbek",
+        "WorkingExperience": "2 years",
+        "Description": "Some description of the employee"
+    },
+    {
+        "ID": 3,
+        "Name": "Otabek",
+        "Age": 19,
+        "Nationality": "Uzbek",
+        "WorkingExperience": "2 years",
+        "Description": "Some description of the employee"
+    },
+    {
+        "ID": 4,
+        "Name": "Otabek",
+        "Age": 19,
+        "Nationality": "Uzbek",
+        "WorkingExperience": "2 years",
+        "Description": "Some description of the employee"
+    },
+    {
+        "ID": 5,
+        "Name": "Otabek",
+        "Age": 19,
+        "Nationality": "Uzbek",
+        "WorkingExperience": "2 years",
+        "Description": "Some description of the employee"
+    },
+    {
+        "ID": 6,
+        "Name": "Durbek",
+        "Age": 19,
+        "Nationality": "Uzbek",
+        "WorkingExperience": "2 years",
+        "Description": "Some description of the employee"
+    },
+    {
+        "ID": 7,
+        "Name": "Nilufar",
+        "Age": 22,
+        "Nationality": "Uzbek",
+        "WorkingExperience": "2 years",
+        "Description": "Very active employee, hopefully she will be promoted"
+    },
+    {
+        "ID": 8,
+        "Name": "Islom",
+        "Age": 27,
+        "Nationality": "Uzbek",
+        "WorkingExperience": "10 years",
+        "Description": "Very productive worker, have received a lot of recommendations from previous places of work. Achieved very high "
+    }
+]

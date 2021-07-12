@@ -1,0 +1,9 @@
+extends layout.pug
+
+block content
+    .content
+        h1 List of all <span id="Orange">employees</span>:
+        ul.employees
+            each employee in employees
+                li.employee
+                    a(href=`/employees/${employee.ID}`) #{employee.ID}. #{employee.Name}

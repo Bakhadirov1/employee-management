@@ -1,0 +1,17 @@
+extends layout.pug
+
+block content
+    .content
+        h1 Information about <span id="Orange">employee</span>
+        .form
+            .row
+                h2 Name: <span>#{employee.Name}</span>
+                h2 Age: <span>#{employee.Age}</span>
+            .row
+                h2 Nationality: <span>#{employee.Nationality}</span>
+                h2 Experience: <span>#{employee.WorkingExperience}</span>
+            .row
+                h2 Description: 
+            p.Description #{employee.Description}
+        
+                

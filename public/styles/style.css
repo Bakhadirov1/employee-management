@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5 {
+    font-size: 42px;
+}
+p {
+    font-size: 18px;
+}
+ul, li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color: #3c3c3c;
+}
+
+a:hover {
+    color: orangered;
+}
+
+
+
+
+body {
+    background-color: rgb(248, 248, 248);
+    font-family: 'PT Sans', sans-serif;
+    color: #3c3c3c;
+}
+
+#Orange {
+    color: orangered;
+}
+
+.block {
+    background-color: #FFF;
+    width: 95%;
+    margin: 3vh auto;
+    padding: 3vh 0;
+    border-radius: 10px;
+    min-height: 85vh;
+    box-shadow: 0px 10px 18px -10px rgba(0,0,0,0.75);
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    margin-top: 0;
+    margin: auto auto;
+    margin-bottom: 4vh;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #b4b4b4;
+}
+.navigation .logo {
+    font-size: 54px;
+}
+
+.logo a {
+    color: #3c3c3c;
+}
+
+.logo a:hover {
+    color: orangered;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav li a {
+    color: #3c3c3c;
+    padding: 0 20px;
+    font-size: 22px;
+}
+.nav li a:last-child {
+    padding-right: 0;
+}
+
+.nav li a:hover {
+    color: orangered;
+}
+
+.content {
+    width: 75%;
+    margin: 0 auto;
+    padding-bottom: 10vh;
+}
+
+.content h1 {
+    font-size: 3.5rem;
+}
+
+.employees {
+    padding-top: 2vh;
+    
+}
+.employee {
+    border-bottom: 1px solid #3c3c3c;
+    padding: 5px 0;
+}
+
+.employee a {
+    font-size: 26px;
+    color: #3c3c3c;
+}
+
+.employee a:hover {
+    color: orangered;
+}
+
+.create-form h1 {
+    padding-bottom: 2vh;
+}
+
+.create-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+form .button button{
+    padding: 20px 40px;
+    background-color: orangered;
+    border: none;
+    color: white;
+    font-size: 18px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    width: 80%;
+}
+
+.row textarea {
+    width: 100%;
+    border: solid #3c3c3c 1px;
+    font-size: 18px;
+    padding: 10px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.row_element {
+    width: 49%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.row_element input{
+    width: 100%;
+    border: #3c3c3c solid 1px;
+    font-size: 18px;
+    padding: 10px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1vh;
+}
+
+.form .row h2 {
+    width: 45%;
+    margin: 20px 0;
+}
+
+.form p{
+    display: block;
+    border: 1px solid #3c3c3c;
+    padding: 20px 10px;
+    margin: 15px 0;
+}
+
+
+
+.form .row h2 span {
+    font-weight: normal;
+}
+
+

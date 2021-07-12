@@ -1,0 +1,26 @@
+extends layout.pug
+
+block content
+    .content
+        .create-form
+            h1 Create employee: 
+
+            if Success
+                p.Success Employee was added to Database!
+            
+
+            form(method="POST")
+                .row
+                    .row_element
+                        input(class="note-input" name="Name" placeholder="Name")
+                    .row_element
+                        input(type="text", name="age", placeholder="Age")
+                .row
+                    .row_element
+                        input(type="text", name="Nationality", placeholder="Nationality") 
+                    .row_element
+                        input(type="text", name="Experience", placeholder="Experience") 
+                .row
+                    textarea(class="note-input" name="Description" rows="6", placeholder="Employee's description")
+                .button
+                    button.create-note-btn Create employee
